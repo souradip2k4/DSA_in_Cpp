@@ -18,7 +18,7 @@ public:
       vector<vector<int>> merged(0);
       merged.push_back(intervals[0]);
 
-      for (int i = 0; i < size; i++) {
+      for (int i = 1; i < size; i++) {
         if (merged.back()[1] >= intervals[i][0]) {
           merged.back()[1] = max(merged.back()[1], intervals[i][1]);
 
