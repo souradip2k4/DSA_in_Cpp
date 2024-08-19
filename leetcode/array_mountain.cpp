@@ -1,7 +1,6 @@
 // https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Solution {
