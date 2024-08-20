@@ -1,7 +1,6 @@
 // https://www.naukri.com/code360/problems/square-root_893351
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
 long long int floorSqrt(long long int n) {
@@ -10,7 +9,7 @@ long long int floorSqrt(long long int n) {
 
   while (end > start) {
     long long int square = mid * mid;
-    if (square < n && ((mid + 1) * (mid + 1) < n+1)) {
+    if (square < n && ((mid + 1) * (mid + 1) < n + 1)) {
       start = mid + 1;
     } else if (square > n) {
       end = mid - 1;
@@ -27,6 +26,6 @@ long long int floorSqrt(long long int n) {
 int main() {
 
   long long int root = floorSqrt(100);
-
   cout << "Square root: " << root << endl;
+
 }
