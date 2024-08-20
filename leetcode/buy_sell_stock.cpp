@@ -1,7 +1,6 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Solution {
@@ -10,10 +9,8 @@ public:
       int maxP = 0, min = prices[0];
 
       for (int i = 1; i < prices.size(); i++) {
-
         if (prices[i] - min < 0) {
           min = prices[i];
-        }
 
         if (prices[i] - min > maxP) {
           maxP = prices[i] - min;
