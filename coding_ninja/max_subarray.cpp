@@ -7,7 +7,7 @@ using namespace std;
 
 long long maxSubarraySum(vector<int> arr, int n) {
   long long int sum = 0, maximumSum = 0;
-  int start = 0, end = 0, count = 0;
+  int count = 0;
 
   for (int i = 0; i < n; i++) {
     sum = sum + arr[i];
@@ -15,6 +15,7 @@ long long maxSubarraySum(vector<int> arr, int n) {
     if (sum > maximumSum) {
       maximumSum = sum;
     }
+
     count++;
     if (sum < 0) {
       sum = 0;
@@ -29,6 +30,7 @@ long long maxSubarraySum(vector<int> arr, int n) {
 int main() {
   vector<int> arr1 = {1, 2, 7, -4, 3, 2};
   vector<int> arr2 = {-3, -5, -6};
+  vector<int> arr3 = {1, 2, -3, -1, 5};
 
   long long int maxSum = maxSubarraySum(arr2, arr2.size());
   cout << "Sum of max subarray elements: " << maxSum << endl;

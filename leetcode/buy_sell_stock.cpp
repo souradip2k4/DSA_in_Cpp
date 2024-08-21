@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -6,17 +5,20 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int> &prices) {
-      int maxP = 0, min = prices[0];
+      int maxP = 0;
+      int minPrice = prices[0];
 
       for (int i = 1; i < prices.size(); i++) {
-        if (prices[i] - min < 0) {
-          min = prices[i];
-
-        if (prices[i] - min > maxP) {
-          maxP = prices[i] - min;
+        // Update the minimum price encountered so far
+        if (prices[i] < minPrice) {
+          minPrice = prices[i];
+        }
+        // Calculate the potential profit and update maxP if it's the highest seen so far
+        int profit = prices[i] - minPrice;
+        if (profit > maxP) {
+          maxP = profit;
         }
       }
-
       return maxP;
     }
 };
@@ -27,4 +29,5 @@ int main() {
   int maxProfit = soln.maxProfit(prices);
 
   cout << "Max profit: " << maxProfit << endl;
+  return 0;
 }
