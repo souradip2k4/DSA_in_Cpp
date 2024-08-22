@@ -25,8 +25,8 @@ public:
 
 int main() {
   Solution soln;
-  vector<int> prices = {7, 6, 5, 4, 3, 2, 1};
-  int maxProfit = soln.maxProfit(prices);
+  vector<int> prices = {7, 1, 5, 3, 6, 4};
+  long maxProfit = soln.maxProfit(prices);
 
   cout << "Max profit: " << maxProfit << endl;
   return 0;
