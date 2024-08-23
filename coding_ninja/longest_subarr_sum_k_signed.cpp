@@ -35,10 +35,8 @@ int getLongestSubarray(vector<int> &arr, long long k) {
 int main() {
 
   vector<int> arr = {1, 2, 3, 1, 1, 1, 1, 4, 2, 3}; // 3
-  vector<int> arr2 = {2, 0, 0, 3}; // 3
+  vector<int> arr2 = {2, 0, 0, 3}; // 3 (This algo works for both signed and unsigned int)
   vector<int> arr3 = {-1, 0, 1, 1, -1, -1, 0}; // 0
-
-
 
   int length = getLongestSubarray(arr, 3);
 
