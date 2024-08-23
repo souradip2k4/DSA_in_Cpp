@@ -21,5 +21,6 @@ add_executable(quick_sort coding_ninja/quick_sort.cpp)
 add_executable(merge_sort coding_ninja/merge_sort.cpp)
 add_executable(arr_pair_sum coding_ninja/arr_pair_sum.cpp)
 add_executable(longest_subarr_sum_k coding_ninja/longest_subarr_sum_k.cpp)
+add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_signed.cpp)
 
 add_executable(binary_search search/binary_search.cpp)

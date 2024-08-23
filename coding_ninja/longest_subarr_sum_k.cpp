@@ -16,6 +16,7 @@ int longestSubarrayWithSumK(vector<int> &arr, long long k) {
       sum -= arr[left];
       left++;
     }
+
     if (sum == k) {
       maxLength = max(maxLength, right - left + 1);
     }
