@@ -12,6 +12,7 @@ add_executable(buy_sell_stock leetcode/buy_sell_stock.cpp)
 add_executable(binary_search_index leetcode/binary_search_index.cpp)
 add_executable(pos_neg_pair_arr leetcode/pos_neg_pair_arr.cpp)
 add_executable(max_consecutive_arr leetcode/max_consecutive_arr.cpp)
+add_executable(single_number leetcode/single_number.cpp)
 
 add_executable(square_root coding_ninja/square_root.cpp)
 add_executable(max_subarray coding_ninja/max_subarray.cpp)
