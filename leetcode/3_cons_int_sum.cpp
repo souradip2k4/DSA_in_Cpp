@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     vector<long long> sumOfThree(long long num) {
-      if (num % 3 != 0) {
+      if (num % 3 != 0) { // To make num as su of3 consecutive elements num % 3 should be equal to 0
         return {};
       }
 
