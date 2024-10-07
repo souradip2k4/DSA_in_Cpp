@@ -7,11 +7,11 @@ using namespace std;
 
 int getLongestSubarray(vector<int> &arr, long long k) {
   unordered_map<long long, int> prefixSum;
-  int size = arr.size();
+  int n = arr.size();
   long long sum = 0, rem = 0;
   int maxL = 0;
 
-  for (int i = 0; i < size; i++) {
+  for (int i = 0; i < n; i++) {
     sum += arr[i];
     if (sum == k) {
       maxL = max(maxL, i + 1);

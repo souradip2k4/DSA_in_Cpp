@@ -12,6 +12,8 @@ int longestSubarrayWithSumK(vector<int> &arr, long long k) {
 
   while (right < size) {
     sum += arr[right];
+
+    // if condition was sum of consecutive elements <= k then if would work in place of while
     while (left <= right && sum > k) {
       sum -= arr[left];
       left++;
