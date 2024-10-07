@@ -1,18 +1,21 @@
-// https://leetcode.com/problems/search-in-rotated-sorted-array/
+// https://leetcode.com/problems/search-in-rotated-sorted-array-ii
+
 #include <bits/stdc++.h>
-#include <values.h>
 
 using namespace std;
 
 class Solution {
 public:
-    int search(vector<int> &arr, int target) {
+    bool search(vector<int> &arr, int target) {
       int low = 0, high = arr.size() - 1;
       int mid = low + (high - low) / 2;
 
       while (low <= high) {
         if (arr[mid] == target) {
-          return mid;
+          return true;
+        } else if (arr[low] == arr[mid] && arr[mid] == arr[high]) {
+          low++;
+          high--;
         } else if (arr[low] <= arr[mid]) { // Left half sorted
 
           if (arr[low] <= target && target <= arr[mid]) {
@@ -32,13 +35,13 @@ public:
         mid = low + (high - low) / 2;
       }
 
-      return -1;
+      return false;
     }
 };
 
 int main() {
   Solution sol;
-  vector<int> arr1 = {4, 5, 6, 7, 0, 1, 2};
+  vector<int> arr1 = {1, 0, 1, 1, 1};
 
   int ind = sol.search(arr1, 0);
   cout << "Index: " << ind << endl;
