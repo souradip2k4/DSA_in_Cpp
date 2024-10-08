@@ -7,7 +7,7 @@ long long int floorSqrt(long long int n) {
   long long int start = 0, end = n;
   long long int mid = start + (end - start) / 2;
 
-  while (end > start) {
+  while (start <= end) {
     long long int square = mid * mid;
     if (square < n && ((mid + 1) * (mid + 1) < n + 1)) {
       start = mid + 1;
