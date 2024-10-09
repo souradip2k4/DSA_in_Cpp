@@ -14,6 +14,7 @@ add_executable(binary_search_index leetcode/binary_search_index.cpp)
 add_executable(rotated_sorted_arr1 leetcode/rotated_sorted_arr1.cpp)
 add_executable(rotated_sorted_arr2 leetcode/rotated_sorted_arr2.cpp)
 add_executable(first_lastpos leetcode/first_lastpos.cpp)
+add_executable(koko_eating_bananas leetcode/koko_eating_bananas.cpp)
 
 add_executable(pos_neg_pair_arr leetcode/pos_neg_pair_arr.cpp)
 add_executable(max_consecutive_arr leetcode/max_consecutive_arr.cpp)
