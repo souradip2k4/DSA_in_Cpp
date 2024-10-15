@@ -5,24 +5,21 @@ using namespace std;
 
 int calculatedDays(vector<int> &weights, int mid, int days) {
 
-  int count = 1, calcSum = 0;
+  int count = 1, sum = 0;
   for (int i = 0; i < weights.size(); i++) {
-
-    if (calcSum + weights[i] > mid) {
+    sum += weights[i];
+    if (sum > mid) {
       count++;
-      calcSum = weights[i];
-    } else {
-      calcSum += weights[i];
+      sum = weights[i];
     }
   }
 
-//  cout << count << endl;
   return count;
 }
 
 int shipWithinDays(vector<int> &weights, int days) {
   int weightSum = 0;
-int result;
+  int result;
   int maxElem = INT_MIN;
   for (int elem: weights) {
     maxElem = max(maxElem, elem);

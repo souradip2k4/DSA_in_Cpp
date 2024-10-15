@@ -27,6 +27,7 @@ add_executable(majority_element leetcode/majority_element.cpp)
 
 # Binary search
 add_executable(square_root coding_ninja/square_root.cpp)
+add_executable(book_allocation coding_ninja/book_allocation.cpp)
 
 add_executable(max_subarray coding_ninja/max_subarray.cpp)
 add_executable(min_dishes coding_ninja/min_dishes.cpp)
