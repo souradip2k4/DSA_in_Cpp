@@ -3,7 +3,8 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-// Dutch National Flag algorithm
+// Use Dutch National Flag algorithm
+
 void sortColors(vector<int> &arr) {
 
   // low -> 0, mid -> 1, high -> 1
@@ -30,4 +31,7 @@ int main() {
   vector<int> arr2 = {2, 0, 1};
   sortColors(arr1);
 
+  for (int elem: arr1) {
+    cout << elem << ", ";
+  }
 }

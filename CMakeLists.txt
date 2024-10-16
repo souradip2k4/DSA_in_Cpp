@@ -39,5 +39,6 @@ add_executable(longest_subarr_sum_k coding_ninja/longest_subarr_sum_k.cpp)
 add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_signed.cpp)
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
+add_executable(no_of_inversions coding_ninja/no_of_inversions.cpp)
 
 add_executable(binary_search search/binary_search.cpp)
