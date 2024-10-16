@@ -25,10 +25,12 @@ add_executable(3_cons_int_sum leetcode/3_cons_int_sum.cpp)
 add_executable(fruits_into_basket leetcode/fruits_into_basket.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
 add_executable(sort_colors leetcode/sort_colors.cpp)
+add_executable(pascals_traingle leetcode/pascals_traingle.cpp)
 
 # Binary search
 add_executable(square_root coding_ninja/square_root.cpp)
 add_executable(book_allocation coding_ninja/book_allocation.cpp)
+add_executable(no_of_inversions coding_ninja/no_of_inversions.cpp)
 
 add_executable(max_subarray coding_ninja/max_subarray.cpp)
 add_executable(min_dishes coding_ninja/min_dishes.cpp)
@@ -39,6 +41,5 @@ add_executable(longest_subarr_sum_k coding_ninja/longest_subarr_sum_k.cpp)
 add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_signed.cpp)
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
-add_executable(no_of_inversions coding_ninja/no_of_inversions.cpp)
 
 add_executable(binary_search search/binary_search.cpp)
