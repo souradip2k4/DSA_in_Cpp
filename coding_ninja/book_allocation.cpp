@@ -8,7 +8,7 @@ int calculateStudents(vector<int> &arr, int mid) {
 
   for (int i = 0; i < arr.size(); i++) {
     sum += arr[i];
-    if (sum  > mid) {
+    if (sum > mid) {
       count++;
       sum = arr[i];
     }
@@ -17,7 +17,8 @@ int calculateStudents(vector<int> &arr, int mid) {
   return count;
 }
 
-int findPages(vector<int> &arr, int n, int m) {
+int findPages(vector<int> &arr, int m) {
+  int n = arr.size();
   int maxElem = INT_MIN, maxSum = 0;
   if (m > n) {
     return -1;
@@ -50,7 +51,7 @@ int main() {
   vector<int> arr1 = {12, 34, 67, 90}; // m = 2
   vector<int> arr2 = {25, 46, 28, 49, 24}; // m = 4
 
-  int minPages = findPages(arr1, arr1.size(), 2);
+  int minPages = findPages(arr1, 2);
 
   cout << minPages << endl;
 }

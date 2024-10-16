@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int calculatedDays(vector<int> &weights, int mid, int days) {
+int calculatedDays(vector<int> &weights, int mid) {
 
   int count = 1, sum = 0;
   for (int i = 0; i < weights.size(); i++) {
@@ -30,7 +30,7 @@ int shipWithinDays(vector<int> &weights, int days) {
 
   int mid = l + (h - l) / 2;
   while (l <= h) {
-    if (calculatedDays(weights, mid, days) <= days) {
+    if (calculatedDays(weights, mid) <= days) {
       result = mid;
       h = mid - 1;
     } else {

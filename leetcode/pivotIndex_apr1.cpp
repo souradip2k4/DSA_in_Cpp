@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-pivot-index/?source=submission-noac
+// https://leetcode.com/problems/find-pivot-index
 #include<vector>
 #include <iostream>
 
@@ -12,10 +12,8 @@ public:
 
       for (int i = 0; i < n; i++) {
         sumL = sumR = 0;
-        for (int j = 0; j < i ; j++) {
-          if(i > 0){
-            sumL += nums[j];
-          }
+        for (int j = 0; j < i; j++) {
+          sumL += nums[j];
         }
 
         for (int k = i + 1; k < n; k++) {
