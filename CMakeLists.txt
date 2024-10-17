@@ -26,6 +26,8 @@ add_executable(fruits_into_basket leetcode/fruits_into_basket.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
 add_executable(sort_colors leetcode/sort_colors.cpp)
 add_executable(pascals_traingle leetcode/pascals_traingle.cpp)
+add_executable(3_sum1 leetcode/3_sum1.cpp)
+add_executable(3_sum2 leetcode/3_sum2.cpp)
 
 # Binary search
 add_executable(square_root coding_ninja/square_root.cpp)
