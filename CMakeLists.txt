@@ -29,6 +29,7 @@ add_executable(pascals_traingle leetcode/pascals_traingle.cpp)
 add_executable(3_sum1 leetcode/3_sum1.cpp)
 add_executable(3_sum2 leetcode/3_sum2.cpp)
 add_executable(4_sum leetcode/4_sum.cpp)
+add_executable(rotate_array leetcode/rotate_array.cpp)
 
 # merge sort
 add_executable(reverse_pair leetcode/reverse_pair.cpp)
