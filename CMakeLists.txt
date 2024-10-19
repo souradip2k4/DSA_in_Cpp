@@ -30,6 +30,9 @@ add_executable(3_sum1 leetcode/3_sum1.cpp)
 add_executable(3_sum2 leetcode/3_sum2.cpp)
 add_executable(4_sum leetcode/4_sum.cpp)
 
+# merge sort
+add_executable(reverse_pair leetcode/reverse_pair.cpp)
+
 # Binary search
 add_executable(square_root coding_ninja/square_root.cpp)
 add_executable(book_allocation coding_ninja/book_allocation.cpp)
