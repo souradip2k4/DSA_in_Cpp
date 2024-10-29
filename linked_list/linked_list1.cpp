@@ -6,6 +6,11 @@ class Node {
 public:
     int data;
     Node *next;
+
+    Node(int data) {
+      this->data = data;
+      this->next = nullptr;
+    }
 };
 
 class LinkedList {
@@ -16,25 +21,21 @@ public:
       head = nullptr;
     }
 
-    bool checkEmptyList(){
-      if(!head){
+    bool checkEmptyList() {
+      if (!head) {
         return true;
       } else {
         return false;
       }
     }
 
-    void insertAtBeginning(int value) {
-      Node *newNode = new Node();
-      newNode->data = value;
-      newNode->next = head;
+    void insertAtBeginning(int val) {
+      Node *newNode = new Node(val);
       head = newNode;
     }
 
-    void insertAtEnd(int value) {
-      Node *newNode = new Node();
-      newNode->data = value;
-      newNode->next = nullptr;
+    void insertAtEnd(int val) {
+      Node *newNode = new Node(val);
 
       if (checkEmptyList()) {
         head = newNode;
@@ -57,9 +58,7 @@ public:
       } else if (pos == 0) {
         insertAtBeginning(val);
       } else {
-        Node *newNode = new Node();
-        newNode->data = val;
-        newNode->next = nullptr;
+        Node *newNode = new Node(val);
 
         Node *temp = head;
         for (int i = 0; i < pos - 1 && temp; i++) {
