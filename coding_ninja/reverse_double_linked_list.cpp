@@ -47,5 +47,6 @@ Node* reverseDLL(Node* head)
     temp = temp->prev;
   }
 
-  return back->prev;
+  head = back->prev;
+  return head;
 }
