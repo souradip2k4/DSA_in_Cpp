@@ -52,6 +52,7 @@ add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
 add_executable(binary_search search/binary_search.cpp)
 
 # Linked List
+add_executable(middle_elem_LL leetcode/middle_elem_LL.cpp)
 add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 add_executable(reverse_LL leetcode/reverse_LL.cpp)
 
