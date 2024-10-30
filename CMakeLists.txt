@@ -54,4 +54,7 @@ add_executable(binary_search search/binary_search.cpp)
 # Linked List
 add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 
+# Double linked list
+add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_list.cpp)
+
 add_executable(linked_list1 linked_list/linked_list1.cpp)
