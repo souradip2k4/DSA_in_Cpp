@@ -56,5 +56,6 @@ add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 
 # Double linked list
 add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_list.cpp)
+add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
 
 add_executable(linked_list1 linked_list/linked_list1.cpp)
