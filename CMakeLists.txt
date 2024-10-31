@@ -56,6 +56,7 @@ add_executable(middle_elem_LL leetcode/middle_elem_LL.cpp)
 add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 add_executable(reverse_LL leetcode/reverse_LL.cpp)
 add_executable(LL_cycle leetcode/LL_cycle.cpp)
+add_executable(LL_cycle2_approach1 leetcode/LL_cycle2_approach1.cpp)
 
 # Double linked list
 add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_list.cpp)
