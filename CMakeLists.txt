@@ -58,6 +58,7 @@ add_executable(LL_cycle leetcode/LL_cycle.cpp)
 add_executable(LL_cycle2_approach1 leetcode/LL_cycle2_approach1.cpp)
 add_executable(palindrome_LL leetcode/palindrome_LL.cpp)
 add_executable(odd_even_LL leetcode/odd_even_LL.cpp)
+add_executable(delete_node_from_end_approach1 leetcode/delete_node_from_end_approach1.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
