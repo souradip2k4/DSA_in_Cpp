@@ -56,14 +56,14 @@ add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 add_executable(reverse_LL leetcode/reverse_LL.cpp)
 add_executable(LL_cycle leetcode/LL_cycle.cpp)
 add_executable(LL_cycle2_approach1 leetcode/LL_cycle2_approach1.cpp)
-add_executable(LL_cycle2_approach2 leetcode/LL_cycle2_approach2.cpp)
+add_executable(palindrome_LL leetcode/palindrome_LL.cpp)
 
 # Linked List coding ninja
+add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
 # Double linked list coding ninja
 add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_list.cpp)
 add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
-add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
 # Double linked list gfg
 add_executable(insert_in_DLL gfg/insert_in_DLL.cpp)

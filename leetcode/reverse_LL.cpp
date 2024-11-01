@@ -27,9 +27,8 @@ public:
         temp->next = prev;
         prev = temp;
         temp = front;
-
-        head = prev;
       }
+      head = prev;
 
       return head;
     }
