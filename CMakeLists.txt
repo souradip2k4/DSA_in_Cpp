@@ -50,7 +50,7 @@ add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_sig
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
 
-# Linked List
+# Linked List leetcode
 add_executable(middle_elem_LL leetcode/middle_elem_LL.cpp)
 add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
 add_executable(reverse_LL leetcode/reverse_LL.cpp)
@@ -58,11 +58,14 @@ add_executable(LL_cycle leetcode/LL_cycle.cpp)
 add_executable(LL_cycle2_approach1 leetcode/LL_cycle2_approach1.cpp)
 add_executable(LL_cycle2_approach2 leetcode/LL_cycle2_approach2.cpp)
 
-# Double linked list
+# Linked List coding ninja
+
+# Double linked list coding ninja
 add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_list.cpp)
 add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
+add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
-# Double linked list
+# Double linked list gfg
 add_executable(insert_in_DLL gfg/insert_in_DLL.cpp)
 
 add_executable(linked_list1 linked_list/linked_list1.cpp)
