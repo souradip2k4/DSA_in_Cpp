@@ -66,7 +66,7 @@ public:
           temp = temp->next;
         }
 
-        if (!temp) {
+        if (temp != nullptr) {
           cout << "Position out of range " << endl;
           return;
         }
@@ -95,7 +95,7 @@ public:
       }
 
       Node *temp = head;
-      while (temp->next->next) {
+      while (temp->next->next != nullptr) {
         temp = temp->next;
       }
 
@@ -114,11 +114,11 @@ public:
       } else {
 
         Node *temp = head;
-        for (int i = 0; i < pos - 1 && temp; i++) {
+        for (int i = 0; i < pos - 1 && temp != nullptr; i++) {
           temp = temp->next;
         }
 
-        if (!temp || !temp->next) {
+        if (temp == nullptr) {
           cout << "Position out of range " << endl;
           return;
         }
@@ -137,7 +137,7 @@ public:
       }
 
       Node *temp = head;
-      while (temp) {
+      while (temp != nullptr) {
         cout << temp->data << " -> ";
         temp = temp->next;
       }
