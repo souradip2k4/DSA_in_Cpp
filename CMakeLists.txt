@@ -8,12 +8,13 @@ add_executable(merge_interval leetcode/merge_interval.cpp)
 add_executable(pivotIndex_apr1 leetcode/pivotIndex_apr1.cpp)
 add_executable(pivotIndex_apr2 leetcode/pivotIndex_apr2.cpp)
 add_executable(buy_sell_stock leetcode/buy_sell_stock.cpp)
+
 # Binary search
 add_executable(array_mountain leetcode/array_mountain.cpp)
 add_executable(binary_search_index leetcode/binary_search_index.cpp)
 add_executable(rotated_sorted_arr1 leetcode/rotated_sorted_arr1.cpp)
 add_executable(rotated_sorted_arr2 leetcode/rotated_sorted_arr2.cpp)
-add_executable(first_lastpos leetcode/first_lastpos.cpp)
+add_executable(first_last_pos leetcode/first_last_pos.cpp)
 add_executable(koko_eating_bananas leetcode/koko_eating_bananas.cpp)
 add_executable(min_days_m_bouquets leetcode/min_days_m_bouquets.cpp)
 add_executable(ship_package_capacity leetcode/ship_package_capacity.cpp)
@@ -25,7 +26,7 @@ add_executable(3_cons_int_sum leetcode/3_cons_int_sum.cpp)
 add_executable(fruits_into_basket leetcode/fruits_into_basket.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
 add_executable(sort_colors leetcode/sort_colors.cpp)
-add_executable(pascals_traingle leetcode/pascals_traingle.cpp)
+add_executable(pascals_triangle leetcode/pascals_triangle.cpp)
 add_executable(3_sum1 leetcode/3_sum1.cpp)
 add_executable(3_sum2 leetcode/3_sum2.cpp)
 add_executable(4_sum leetcode/4_sum.cpp)
@@ -49,8 +50,6 @@ add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_sig
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
 
-add_executable(binary_search search/binary_search.cpp)
-
 # Linked List
 add_executable(middle_elem_LL leetcode/middle_elem_LL.cpp)
 add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
@@ -64,3 +63,5 @@ add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
 add_executable(insert_in_DLL gfg/insert_in_DLL.cpp)
 
 add_executable(linked_list1 linked_list/linked_list1.cpp)
+
+add_executable(binary_search search/binary_search.cpp)
