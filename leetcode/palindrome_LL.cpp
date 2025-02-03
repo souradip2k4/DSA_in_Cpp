@@ -28,7 +28,6 @@ public:
         temp = temp->next;
       }
 
-
       ListNode *prev = nullptr, *curr = slow, *front;
       while (curr != nullptr) {
         front = curr->next;

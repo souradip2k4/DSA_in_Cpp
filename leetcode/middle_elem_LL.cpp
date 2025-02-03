@@ -13,10 +13,10 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode* middleNode(ListNode* head) {
+    ListNode *middleNode(ListNode *head) {
       ListNode *fastPtr = head, *slowPtr = head;
 
-      while(fastPtr != nullptr && fastPtr->next != nullptr){
+      while (fastPtr != nullptr && fastPtr->next != nullptr) {
         slowPtr = slowPtr->next;
         fastPtr = fastPtr->next->next;
       }

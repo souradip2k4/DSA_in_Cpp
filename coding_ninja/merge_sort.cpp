@@ -44,11 +44,11 @@ void mergeSort(vector<int> &arr, int low, int high) {
   merge(arr, mid, low, high);
 }
 
-int main () {
+int main() {
   vector<int> arr = {7, 6, 9, 2, 5, 2, 9};
 
   mergeSort(arr, 0, arr.size() - 1);
-  for(auto elem: arr){
+  for (auto elem: arr) {
     cout << elem << ", ";
   }
 
