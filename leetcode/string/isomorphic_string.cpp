@@ -10,23 +10,19 @@ bool isIsomorphic(string s, string t) {
   }
 
   string str;
-  unordered_map<char, char> uMap;
+  unordered_map<char, char> uMapS, uMapT;
 
   for (int i = 0; i < s.size(); i++) {
-    if (uMap.find(s[i]) == uMap.end()) {
-      uMap[s[i]] = t[i];
-      str.push_back(t[i]);
-    } else {
-      str.push_back(uMap[s[i]]);
-    }
+    char c1 = s[i], c2 = t[i];
+    if (uMapS.count(c1) && uMapS[c1] != c2) return false;
+
+    if (uMapT.count(c2) && uMapT[c2] != c1) return false;
+
+    uMapS[c1] = c2;
+    uMapT[c2] = c1;
   }
 
-  cout << str << endl;
-  if (t == str) {
-    return true;
-  }
-
-  return false;
+  return true;
 }
 
 int main() {
@@ -35,5 +31,5 @@ int main() {
   bool res3 = isIsomorphic("foo", "bar");
   bool res4 = isIsomorphic("badc", "baba");
 
-  cout << res4 << endl;
+  cout << res2 << endl;
 }
