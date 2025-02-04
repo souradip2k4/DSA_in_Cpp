@@ -61,6 +61,15 @@ add_executable(odd_even_LL leetcode/odd_even_LL.cpp)
 add_executable(delete_node_from_end_approach1 leetcode/delete_node_from_end_approach1.cpp)
 add_executable(delete_mid_node_LL leetcode/delete_mid_node_LL.cpp)
 
+# String problems
+add_executable(longest_repeat_char_replacement.cpp leetcode/string/longest_repeat_char_replacement.cpp)
+add_executable(substr_all_3_chars.cpp leetcode/string/substr_all_3_chars.cpp)
+add_executable(remove_outer_parenthesis.cpp leetcode/string/remove_outer_parenthesis.cpp)
+add_executable(reverse_words_in_string.cpp leetcode/string/reverse_words_in_string.cpp)
+add_executable(maxOddSubstr.cpp leetcode/string/maxOddSubstr.cpp)
+add_executable(longest_common_prefix.cpp leetcode/string/longest_common_prefix.cpp)
+add_executable(isomorphic_string.cpp leetcode/string/isomorphic_string.cpp)
+
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
