@@ -69,6 +69,8 @@ add_executable(reverse_words_in_string.cpp leetcode/string/reverse_words_in_stri
 add_executable(maxOddSubstr.cpp leetcode/string/maxOddSubstr.cpp)
 add_executable(longest_common_prefix.cpp leetcode/string/longest_common_prefix.cpp)
 add_executable(isomorphic_string.cpp leetcode/string/isomorphic_string.cpp)
+add_executable(anagram.cpp leetcode/string/anagram.cpp)
+add_executable(rotate_string.cpp leetcode/string/rotate_string.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
