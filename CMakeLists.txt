@@ -72,6 +72,8 @@ add_executable(isomorphic_string.cpp leetcode/string/isomorphic_string.cpp)
 add_executable(anagram.cpp leetcode/string/anagram.cpp)
 add_executable(rotate_string.cpp leetcode/string/rotate_string.cpp)
 add_executable(sort_by_freq.cpp leetcode/string/sort_by_freq.cpp)
+add_executable(max_nesting_depth.cpp leetcode/string/max_nesting_depth.cpp)
+add_executable(string_to_int.cpp leetcode/string/string_to_int.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
