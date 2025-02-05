@@ -71,6 +71,7 @@ add_executable(longest_common_prefix.cpp leetcode/string/longest_common_prefix.c
 add_executable(isomorphic_string.cpp leetcode/string/isomorphic_string.cpp)
 add_executable(anagram.cpp leetcode/string/anagram.cpp)
 add_executable(rotate_string.cpp leetcode/string/rotate_string.cpp)
+add_executable(sort_by_freq.cpp leetcode/string/sort_by_freq.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
