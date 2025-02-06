@@ -75,6 +75,7 @@ add_executable(sort_by_freq.cpp leetcode/string/sort_by_freq.cpp)
 add_executable(max_nesting_depth.cpp leetcode/string/max_nesting_depth.cpp)
 add_executable(string_to_int.cpp leetcode/string/string_to_int.cpp)
 add_executable(longest_palindromic_substr.cpp leetcode/string/longest_palindromic_substr.cpp)
+add_executable(sum_beauty_strings.cpp leetcode/string/sum_beauty_strings.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
