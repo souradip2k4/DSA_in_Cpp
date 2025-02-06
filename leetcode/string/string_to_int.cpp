@@ -5,7 +5,7 @@ using namespace std;
 
 int myAtoi(string s) {
   int sign = 1, i = 0;
-  long long num = 0;
+  long num = 0;
   while (i < s.size() && s[i] == ' ') i++;
 
   if (s[i] == '-') {
@@ -23,10 +23,10 @@ int myAtoi(string s) {
       } else if (num > INT_MAX && sign == -1) {
         return INT_MIN;
       }
-      i++;
     } else {
       return (int) (sign * num);
     }
+    i++;
   }
 
   return (int) (sign * num);
@@ -40,5 +40,4 @@ int main() {
   int r5 = myAtoi("-91283472332");
 
   cout << r2 << endl;
-  // cout << stoi("1337c0d3") << endl;
 }
