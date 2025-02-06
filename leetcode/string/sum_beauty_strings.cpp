@@ -15,6 +15,7 @@ int beautySum(string s) {
 
       int maxFreq = INT_MIN, minFreq = INT_MAX;
       for (int &item: hash) {
+        // Don't need this check if using built in maps
         if (item > 0) {
           // If item count is 0 that means that character doesn't exist and will result in minFreq to be always 0
           maxFreq = max(maxFreq, item);
