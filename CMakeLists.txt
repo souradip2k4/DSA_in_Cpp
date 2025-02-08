@@ -80,6 +80,7 @@ add_executable(min_parenthesis_valid_add.cpp leetcode/string/min_parenthesis_val
 add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
 add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
+add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
 
 # Subsequence problem
 add_executable(generate_parenthesis.cpp leetcode/subsequence_pattern/generate_parenthesis.cpp)
