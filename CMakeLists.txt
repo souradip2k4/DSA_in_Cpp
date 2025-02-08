@@ -77,6 +77,7 @@ add_executable(string_to_int.cpp leetcode/string/string_to_int.cpp)
 add_executable(longest_palindromic_substr.cpp leetcode/string/longest_palindromic_substr.cpp)
 add_executable(sum_beauty_strings.cpp leetcode/string/sum_beauty_strings.cpp)
 add_executable(min_parenthesis_valid_add.cpp leetcode/string/min_parenthesis_valid_add.cpp)
+add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
