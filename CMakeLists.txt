@@ -78,6 +78,8 @@ add_executable(longest_palindromic_substr.cpp leetcode/string/longest_palindromi
 add_executable(sum_beauty_strings.cpp leetcode/string/sum_beauty_strings.cpp)
 add_executable(min_parenthesis_valid_add.cpp leetcode/string/min_parenthesis_valid_add.cpp)
 add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
+add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
+add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
