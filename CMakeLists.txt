@@ -81,6 +81,9 @@ add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
 add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 
+# Subsequence problem
+add_executable(generate_parenthesis.cpp leetcode/subsequence_pattern/generate_parenthesis.cpp)
+
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 

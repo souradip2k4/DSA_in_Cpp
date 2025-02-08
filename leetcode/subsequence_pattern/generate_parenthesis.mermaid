@@ -1,0 +1,35 @@
+graph TD
+    A["''<br/>open=0,close=0"] --> B["'('<br/>open=1,close=0"]
+
+    B --> C["'(('<br/>open=2,close=0"]
+    C --> D["'((('<br/>open=3,close=0"]
+    D --> E["'((()'<br/>open=3,close=1"]
+    E --> F["'((())' <br/>open=3,close=2"]
+    F --> G["'((()))' ✓<br/>open=3,close=3"]
+
+    C --> H["'(()' <br/>open=2,close=1"]
+    H --> I["'(()(' <br/>open=3,close=1"]
+    I --> J["'(()()' <br/>open=3,close=2"]
+    J --> K["'(()())' ✓<br/>open=3,close=3"]
+
+    H --> L["'(())' <br/>open=2,close=2"]
+    L --> M["'(())(' <br/>open=3,close=2"]
+    M --> N["'(())()' ✓<br/>open=3,close=3"]
+
+    B --> O["'()' <br/>open=1,close=1"]
+    O --> P["'()(' <br/>open=2,close=1"]
+    P --> Q["'()((' <br/>open=3,close=1"]
+    Q --> R["'()(()'<br/>open=3,close=2"]
+    R --> S["'()(())' ✓<br/>open=3,close=3"]
+
+    P --> T["'()()' <br/>open=2,close=2"]
+    T --> U["'()()(' <br/>open=3,close=2"]
+    U --> V["'()()()' ✓<br/>open=3,close=3"]
+
+    style G fill:#90EE90,color:#000000,stroke:#333,stroke-width:2px
+    style K fill:#90EE90,color:#000000,stroke:#333,stroke-width:2px
+    style N fill:#90EE90,color:#000000,stroke:#333,stroke-width:2px
+    style S fill:#90EE90,color:#000000,stroke:#333,stroke-width:2px
+    style V fill:#90EE90,color:#000000,stroke:#333,stroke-width:2px
+
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#000000;
