@@ -82,8 +82,9 @@ add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
 
-# Subsequence problem
-add_executable(generate_parenthesis.cpp leetcode/subsequence_pattern/generate_parenthesis.cpp)
+# Recursion problems
+add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
+add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
