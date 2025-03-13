@@ -93,6 +93,7 @@ add_executable(fruits_into_basket leetcode/sliding-window/fruits_into_basket.cpp
 add_executable(count-nice-subarrays leetcode/sliding-window/count-nice-subarrays.cpp)
 add_executable(longest-substr-without-repeat-chars leetcode/sliding-window/longest-substr-without-repeat-chars.cpp)
 add_executable(max-points-from-card leetcode/sliding-window/max-points-from-card.cpp)
+add_executable(subArrays-distinct-integers leetcode/sliding-window/subArrays-distinct-integers.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
