@@ -25,6 +25,10 @@ int atMost(vector<int> &nums, int goal) {
 
 int numSubarraysWithSum(vector<int> &nums, int goal) {
   return atMost(nums, goal) - atMost(nums, goal - 1);
+  // let goal = 2
+  // atMost(nums, goal) calculates all sub-arrays where sum <= 2
+  // atMost(nums, goal - 1) calculates all sub-arrays where sum <= 1
+  // atMost(nums, goal) - atMost(nums, goal - 1) = no of sub-arrays with goal = 2
 }
 
 int main() {

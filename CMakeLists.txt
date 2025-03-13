@@ -4,7 +4,6 @@ project(DSA)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(product_except_self leetcode/product_except_self.cpp)
-add_executable(merge_interval leetcode/merge_interval.cpp)
 add_executable(pivotIndex_apr1 leetcode/pivotIndex_apr1.cpp)
 add_executable(pivotIndex_apr2 leetcode/pivotIndex_apr2.cpp)
 add_executable(buy_sell_stock leetcode/buy_sell_stock.cpp)
@@ -34,10 +33,12 @@ add_executable(rotate_array leetcode/rotate_array.cpp)
 # merge sort
 add_executable(reverse_pair leetcode/reverse_pair.cpp)
 
+
 # Binary search
 add_executable(square_root coding_ninja/square_root.cpp)
 add_executable(book_allocation coding_ninja/book_allocation.cpp)
 add_executable(no_of_inversions coding_ninja/no_of_inversions.cpp)
+
 
 add_executable(max_subarray coding_ninja/max_subarray.cpp)
 add_executable(min_dishes coding_ninja/min_dishes.cpp)
@@ -49,16 +50,20 @@ add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_sig
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
 
+
 # Linked List leetcode
-add_executable(middle_elem_LL leetcode/middle_elem_LL.cpp)
-add_executable(deletion_in_LL leetcode/deletion_in_LL.cpp)
-add_executable(reverse_LL leetcode/reverse_LL.cpp)
-add_executable(LL_cycle leetcode/LL_cycle.cpp)
-add_executable(LL_cycle2_approach1 leetcode/LL_cycle2_approach1.cpp)
-add_executable(palindrome_LL leetcode/palindrome_LL.cpp)
-add_executable(odd_even_LL leetcode/odd_even_LL.cpp)
-add_executable(delete_node_from_end_approach1 leetcode/delete_node_from_end_approach1.cpp)
-add_executable(delete_mid_node_LL leetcode/delete_mid_node_LL.cpp)
+add_executable(middle_elem_LL leetcode/linked-list/middle_elem_LL.cpp)
+add_executable(deletion_in_LL leetcode/linked-list/deletion_in_LL.cpp)
+add_executable(reverse_LL leetcode/linked-list/reverse_LL.cpp)
+add_executable(LL_cycle leetcode/linked-list/LL_cycle.cpp)
+add_executable(LL_cycle2_approach1 leetcode/linked-list/LL_cycle2_approach1.cpp)
+add_executable(LL_cycle2_approach2 leetcode/linked-list/LL_cycle2_approach2.cpp)
+add_executable(palindrome_LL leetcode/linked-list/palindrome_LL.cpp)
+add_executable(odd_even_LL leetcode/linked-list/odd_even_LL.cpp)
+add_executable(delete_node_from_end_approach1 leetcode/linked-list/delete_node_from_end_approach1.cpp)
+add_executable(delete_mid_node_LL leetcode/linked-list/delete_mid_node_LL.cpp)
+add_executable(merge_interval leetcode/linked-list/merge_interval.cpp)
+
 
 # String problems
 add_executable(longest_repeat_char_replacement.cpp leetcode/string/longest_repeat_char_replacement.cpp)
@@ -81,14 +86,18 @@ add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
 
+
 # Sliding window
-add_executable(max-binary-subArrays.cpp leetcode/sliding_window/max-binary-subArrays.cpp)
-add_executable(fruits_into_basket leetcode/sliding_window/fruits_into_basket.cpp)
-add_executable(count-nice-subarrays leetcode/sliding_window/count-nice-subarrays.cpp)
+add_executable(max-binary-subArrays.cpp leetcode/sliding-window/max-binary-subArrays.cpp)
+add_executable(fruits_into_basket leetcode/sliding-window/fruits_into_basket.cpp)
+add_executable(count-nice-subarrays leetcode/sliding-window/count-nice-subarrays.cpp)
+add_executable(longest-substr-without-repeat-chars leetcode/sliding-window/longest-substr-without-repeat-chars.cpp)
+add_executable(max-points-from-card leetcode/sliding-window/max-points-from-card.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
+
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
@@ -98,7 +107,7 @@ add_executable(reverse_double_linked_list coding_ninja/reverse_double_linked_lis
 add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
 
 # Double linked list gfg
-add_executable(insert_in_DLL gfg/insert_in_DLL.cpp)
+add_executable(insert_in_DLL gfg/linked-list/insert_in_DLL.cpp)
 
 add_executable(linked_list1 linked_list/linked_list1.cpp)
 
