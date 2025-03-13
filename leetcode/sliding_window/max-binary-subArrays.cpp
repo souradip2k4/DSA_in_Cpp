@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/binary-subarrays-with-sum/description/
 // 930. Binary Subarrays With Sum
+// Same as count-nice-subarrays.cpp
 
 #include <bits/stdc++.h>
 using namespace std;

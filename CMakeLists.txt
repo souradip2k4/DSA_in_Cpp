@@ -84,6 +84,7 @@ add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string
 # Sliding window
 add_executable(max-binary-subArrays.cpp leetcode/sliding_window/max-binary-subArrays.cpp)
 add_executable(fruits_into_basket leetcode/sliding_window/fruits_into_basket.cpp)
+add_executable(count-nice-subarrays leetcode/sliding_window/count-nice-subarrays.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
