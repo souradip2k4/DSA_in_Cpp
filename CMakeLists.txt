@@ -23,7 +23,6 @@ add_executable(pos_neg_pair_arr leetcode/pos_neg_pair_arr.cpp)
 add_executable(max_consecutive_arr leetcode/max_consecutive_arr.cpp)
 add_executable(single_number leetcode/single_number.cpp)
 add_executable(3_cons_int_sum leetcode/3_cons_int_sum.cpp)
-add_executable(fruits_into_basket leetcode/fruits_into_basket.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
 add_executable(sort_colors leetcode/sort_colors.cpp)
 add_executable(pascals_triangle leetcode/pascals_triangle.cpp)
@@ -81,6 +80,10 @@ add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
 add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
+
+# Sliding window
+add_executable(max-binary-subArrays.cpp leetcode/sliding_window/max-binary-subArrays.cpp)
+add_executable(fruits_into_basket leetcode/sliding_window/fruits_into_basket.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
