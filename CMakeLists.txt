@@ -94,11 +94,15 @@ add_executable(count-nice-subarrays leetcode/sliding-window/count-nice-subarrays
 add_executable(longest-substr-without-repeat-chars leetcode/sliding-window/longest-substr-without-repeat-chars.cpp)
 add_executable(max-points-from-card leetcode/sliding-window/max-points-from-card.cpp)
 add_executable(subArrays-distinct-integers leetcode/sliding-window/subArrays-distinct-integers.cpp)
+add_executable(min-window-substring leetcode/sliding-window/min-window-substring.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 
+
+# Stacks and queues
+add_executable(stack-using-queue leetcode/stacks-and-queues/stack-using-queue.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
