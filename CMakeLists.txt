@@ -103,6 +103,7 @@ add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 
 # Stacks and queues
 add_executable(stack-using-queue leetcode/stacks-and-queues/stack-using-queue.cpp)
+add_executable(next-greater-elem-in-array leetcode/stacks-and-queues/next-greater-elem-in-array.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
