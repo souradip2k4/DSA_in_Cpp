@@ -105,6 +105,7 @@ add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-q
 add_executable(next-greater-elem-in-array leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp)
 add_executable(next-greater-elem-in-array2 leetcode/stacks-and-queues/stacks/next-greater-elem-in-array2.cpp)
 add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
+add_executable(get-min leetcode/stacks-and-queues/stacks/get-min-stack.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)

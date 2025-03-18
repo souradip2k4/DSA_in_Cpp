@@ -19,13 +19,17 @@ public:
 
 class LRUCache {
 public:
+  // Initializing head and tail nodes with {key, value} = {-1, -1} is necessary here
+  // because they serve as dummy nodes to simplify edge cases when adding or removing nodes.
+  // This setup ensures that the list always has a valid structure, avoiding null pointer checks.
+
   Node *head = new Node(-1, -1);
   Node *tail = new Node(-1, -1);
 
   int capacity;
   unordered_map<int, Node *> uMap;
 
-  Node *addNode(Node *node) {
+  Node* addNode(Node *node) {
     node->next = head->next;
     node->prev = head;
     head->next->prev = node;
