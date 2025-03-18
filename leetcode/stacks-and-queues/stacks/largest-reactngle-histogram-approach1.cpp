@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/largest-rectangle-in-histogram/
 // 84. Largest Rectangle in Histogram
+// O(5n)
+
 
 #include <values.h>
 #include<bits/stdc++.h>
@@ -9,7 +11,10 @@ vector<int> prevSmallestElem(vector<int> &heights) {
   stack<int> st;
   int n = heights.size();
   vector<int> pse(n);
+
+  // O(n)
   for (int i = 0; i < n; i++) {
+    // O(n)
     while (!st.empty() && heights[i] <= heights[st.top()]) {
       st.pop();
     }
@@ -30,7 +35,10 @@ vector<int> nextSmallestElem(vector<int> &heights) {
   stack<int> st;
   int n = heights.size();
   vector<int> nse(n);
+
+  // O(n)
   for (int i = n - 1; i >= 0; i--) {
+    // O(n)
     while (!st.empty() && heights[i] <= heights[st.top()]) {
       st.pop();
     }
@@ -52,6 +60,7 @@ int largestRectangleArea(vector<int> &heights) {
   vector<int> nse = nextSmallestElem(heights);
   int maxArea = MININT;
 
+  // O(n)
   for (int i = 0; i < heights.size(); i++) {
     maxArea = max(maxArea, heights[i] * (nse[i] - pse[i] - 1));
   }
