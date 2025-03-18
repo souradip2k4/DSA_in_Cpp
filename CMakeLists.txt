@@ -101,11 +101,14 @@ add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 
 # Stacks and queues
-add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-queue.cpp)
 add_executable(next-greater-elem-in-array leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp)
 add_executable(next-greater-elem-in-array2 leetcode/stacks-and-queues/stacks/next-greater-elem-in-array2.cpp)
-add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
 add_executable(get-min leetcode/stacks-and-queues/stacks/get-min-stack.cpp)
+add_executable(largest-reactngle-histogram leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach1.cpp)
+
+add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-queue.cpp)
+add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
+
 add_executable(LFU-cache leetcode/stacks-and-queues/queues/LFU-cache.cpp)
 
 # Linked List coding ninja
