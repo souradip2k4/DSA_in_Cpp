@@ -106,6 +106,7 @@ add_executable(next-greater-elem-in-array2 leetcode/stacks-and-queues/stacks/nex
 add_executable(get-min leetcode/stacks-and-queues/stacks/get-min-stack.cpp)
 add_executable(largest-reactngle-histogram-approach1 leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach1.cpp)
 add_executable(largest-reactngle-histogram-approach2 leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach2.cpp)
+add_executable(subarray-min-sum leetcode/stacks-and-queues/stacks/subarray-min-sum.cpp)
 
 add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-queue.cpp)
 add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
