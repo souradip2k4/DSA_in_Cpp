@@ -95,6 +95,7 @@ add_executable(longest-substr-without-repeat-chars leetcode/sliding-window/longe
 add_executable(max-points-from-card leetcode/sliding-window/max-points-from-card.cpp)
 add_executable(subArrays-distinct-integers leetcode/sliding-window/subArrays-distinct-integers.cpp)
 add_executable(min-window-substring leetcode/sliding-window/min-window-substring.cpp)
+add_executable(max-cons-1s-k-replacement leetcode/sliding-window/max-cons-1s-k-replacement.cpp)
 
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
@@ -109,6 +110,7 @@ add_executable(largest-reactngle-histogram-approach2 leetcode/stacks-and-queues/
 add_executable(subarray-min-sum leetcode/stacks-and-queues/stacks/subarray-min-sum.cpp)
 add_executable(asteroid-collision leetcode/stacks-and-queues/stacks/asteroid-collision.cpp)
 add_executable(sum-subarray-ranges leetcode/stacks-and-queues/stacks/sum-subarray-ranges.cpp)
+add_executable(valid-parenthesis leetcode/stacks-and-queues/stacks/valid-parenthesis.cpp)
 
 add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-queue.cpp)
 add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)

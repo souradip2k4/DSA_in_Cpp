@@ -18,7 +18,10 @@ vector<int> previousSmallest(vector<int> &nums) {
 
     st.push(i);
   }
-
+  for (int num: pse) {
+    cout << "pse "<< num << ", ";
+  }
+  cout << endl;
   return pse;
 }
 
@@ -36,6 +39,10 @@ vector<int> nextSmallest(vector<int> &nums) {
     st.push(i);
   }
 
+  for (int num: nse) {
+    cout << "nse "<< num << ", ";
+  }
+  cout << endl;
   return nse;
 }
 
@@ -52,7 +59,10 @@ vector<int> previousGreatest(vector<int> &nums) {
     pge[i] = !st.empty() ? st.top() : -1;
     st.push(i);
   }
-
+  for (int num: pge) {
+    cout << "pge "<< num << ", ";
+  }
+  cout << endl;
   return pge;
 }
 
@@ -69,7 +79,10 @@ vector<int> nextGreatest(vector<int> &nums) {
     nge[i] = !st.empty() ? st.top() : n;
     st.push(i);
   }
-
+  for (int num: nge) {
+    cout << "nge "<< num << ", ";
+  }
+  cout << endl;
   return nge;
 }
 
@@ -92,6 +105,6 @@ int main() {
   vector<int> arr1 = {1, 2, 3}, arr2 = {1, 3, 3}, arr3 = {4, -2, -3, 4, 1};
 
   cout << subArrayRanges(arr1) << endl;
-  cout << subArrayRanges(arr2) << endl;
-  cout << subArrayRanges(arr3) << endl;
+  // cout << subArrayRanges(arr2) << endl;
+  // cout << subArrayRanges(arr3) << endl;
 }
