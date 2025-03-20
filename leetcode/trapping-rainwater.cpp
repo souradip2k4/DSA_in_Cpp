@@ -8,8 +8,8 @@ int trap(vector<int> &height) {
   int n = height.size(), sum = 0;;
   vector<int> prefixMax(n), suffixMax(n);
 
-  prefixMax[0] = height[0];
-  suffixMax[n - 1] = height[n - 1];
+  prefixMax[0] = height[0]; // Stores the leftMax height wrt heights[i]
+  suffixMax[n - 1] = height[n - 1]; // Stores the rightMax height wrt heights[i]
 
   for (int i = 1; i < n; i++) {
     prefixMax[i] = max(height[i], prefixMax[i - 1]);
@@ -22,6 +22,7 @@ int trap(vector<int> &height) {
   for (int i = 0; i < n; i++) {
     int leftMax = prefixMax[i], rightMax = suffixMax[i];
     if (height[i] < leftMax && height[i] < rightMax) {
+      // We require the minimum height between leftMax and rightMax to prevent water overflow
       sum += min(leftMax, rightMax) - height[i];
     }
   }
