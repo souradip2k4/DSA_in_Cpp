@@ -114,6 +114,9 @@ add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
 
 add_executable(LFU-cache leetcode/stacks-and-queues/queues/LFU-cache.cpp)
 
+
+add_executable(trapping-rainwater.cpp leetcode/trapping-rainwater.cpp)
+
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
