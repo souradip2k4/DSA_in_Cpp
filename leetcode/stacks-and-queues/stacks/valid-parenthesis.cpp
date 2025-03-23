@@ -1,7 +1,6 @@
 // https://leetcode.com/problems/valid-parentheses/
 // 20. Valid Parentheses
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
