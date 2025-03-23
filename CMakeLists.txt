@@ -112,6 +112,7 @@ add_executable(asteroid-collision leetcode/stacks-and-queues/stacks/asteroid-col
 add_executable(sum-subarray-ranges leetcode/stacks-and-queues/stacks/sum-subarray-ranges.cpp)
 add_executable(valid-parenthesis leetcode/stacks-and-queues/stacks/valid-parenthesis.cpp)
 add_executable(online-stock-plan leetcode/stacks-and-queues/stacks/online-stock-plan.cpp)
+add_executable(remove-k-digits leetcode/stacks-and-queues/stacks/remove-k-digits.cpp)
 
 add_executable(stack-using-queue leetcode/stacks-and-queues/queues/stack-using-queue.cpp)
 add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
