@@ -85,6 +85,8 @@ add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
 add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
 add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
 add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
+add_executable(shortest-palindrome leetcode/string/shortest-palindrome.cpp)
+add_executable(roman-no leetcode/string/roman-no.cpp)
 
 
 # Sliding window

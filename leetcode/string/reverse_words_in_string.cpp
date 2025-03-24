@@ -27,6 +27,7 @@ string reverseWords(string s) {
     i++;
   }
 
+  // Removing the last whitespace in the string
   str2 = str2.substr(0, str2.size() - 1);
 
   return str2;
@@ -35,8 +36,8 @@ string reverseWords(string s) {
 
 int main() {
   string s1 = reverseWords("the sky is blue"); // blue is sky the
-  // string s2 = reverseWords("  hello world  "); // world hello
-  // string s3 = reverseWords("a good   example"); // example good a
+  string s2 = reverseWords("  hello world  "); // world hello
+  string s3 = reverseWords("a good   example"); // example good a
 
-  cout << "'" << s1 << "'" << endl;
+  cout << "'" << s3 << "'" << endl;
 }
