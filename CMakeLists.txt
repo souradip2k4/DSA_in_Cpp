@@ -87,6 +87,7 @@ add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.c
 add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
 add_executable(shortest-palindrome leetcode/string/shortest-palindrome.cpp)
 add_executable(roman-no leetcode/string/roman-no.cpp)
+add_executable(longest-prefix-also-suffix leetcode/string/longest-prefix-also-suffix.cpp)
 
 
 # Sliding window
