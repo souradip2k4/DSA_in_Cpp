@@ -89,7 +89,6 @@ add_executable(shortest-palindrome leetcode/string/shortest-palindrome.cpp)
 add_executable(roman-no leetcode/string/roman-no.cpp)
 add_executable(longest-prefix-also-suffix leetcode/string/longest-prefix-also-suffix.cpp)
 
-
 # Sliding window
 add_executable(max-binary-subArrays.cpp leetcode/sliding-window/max-binary-subArrays.cpp)
 add_executable(fruits_into_basket leetcode/sliding-window/fruits_into_basket.cpp)
@@ -103,6 +102,7 @@ add_executable(max-cons-1s-k-replacement leetcode/sliding-window/max-cons-1s-k-r
 # Recursion problems
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
+add_executable(count-good-numbers leetcode/recursion/count-good-numbers.cpp)
 
 # Stacks and queues
 add_executable(next-greater-elem-in-array leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp)

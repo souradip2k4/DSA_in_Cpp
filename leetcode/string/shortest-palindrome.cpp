@@ -20,7 +20,7 @@ string shortestPalindrome(string s) {
   int l = 0, r = s.size() - 1;
 
   // Finding the prefix palindrome string always starting from index 0
-  while (r >= l && !checkPalindrome(l, r, s)) {
+  while (r >= 0 && !checkPalindrome(0, r, s)) {
     r--;
   }
 
