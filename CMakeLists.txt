@@ -103,6 +103,7 @@ add_executable(max-cons-1s-k-replacement leetcode/sliding-window/max-cons-1s-k-r
 add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 add_executable(count-good-numbers leetcode/recursion/count-good-numbers.cpp)
+add_executable(pow leetcode/recursion/pow.cpp)
 
 # Stacks and queues
 add_executable(next-greater-elem-in-array leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp)
