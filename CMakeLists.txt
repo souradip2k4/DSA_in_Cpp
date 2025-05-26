@@ -125,6 +125,11 @@ add_executable(LFU-cache leetcode/stacks-and-queues/queues/LFU-cache.cpp)
 
 add_executable(trapping-rainwater.cpp leetcode/trapping-rainwater.cpp)
 
+
+#Bit Manipulation
+add_executable(check_power_of_two.cpp leetcode/bit_manipulation/check_power_of_two.cpp)
+add_executable(divide_two_integers.cpp leetcode/bit_manipulation/divide_two_integers.cpp)
+
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
 
@@ -134,6 +139,9 @@ add_executable(deleting_end_node_DLL coding_ninja/deleting_end_node_DLL.cpp)
 
 # Double linked list gfg
 add_executable(insert_in_DLL gfg/linked-list/insert_in_DLL.cpp)
+
+# recursion
+add_executable(sort-stack gfg/recursion/sort-stack.cpp)
 
 add_executable(linked_list1 linked_list/linked_list1.cpp)
 

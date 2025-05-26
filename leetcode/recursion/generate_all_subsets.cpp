@@ -4,7 +4,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 void dfs(vector<int> &nums, int index, vector<vector<int> > &res, vector<int> &subArr) {
   if (index == nums.size()) {
     res.push_back(subArr);
@@ -27,12 +26,11 @@ vector<vector<int> > subsets(vector<int> &nums) {
 
 int main() {
   vector<int> arr1 = {1, 2, 3};
-  vector<vector<int>> res = subsets(arr1);
+  vector<vector<int> > res = subsets(arr1);
   for (auto &it: res) {
     for (int num: it) {
       cout << " " << num << ",";
     }
     cout << endl;
   }
-
 }
