@@ -129,6 +129,7 @@ add_executable(trapping-rainwater.cpp leetcode/trapping-rainwater.cpp)
 #Bit Manipulation
 add_executable(check_power_of_two.cpp leetcode/bit_manipulation/check_power_of_two.cpp)
 add_executable(divide_two_integers.cpp leetcode/bit_manipulation/divide_two_integers.cpp)
+add_executable(minBitsFlip leetcode/bit_manipulation/minBitsFlip.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
