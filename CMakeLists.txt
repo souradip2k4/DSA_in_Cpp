@@ -131,6 +131,8 @@ add_executable(check_power_of_two.cpp leetcode/bit_manipulation/check_power_of_t
 add_executable(divide_two_integers.cpp leetcode/bit_manipulation/divide_two_integers.cpp)
 add_executable(minBitsFlip leetcode/bit_manipulation/minBitsFlip.cpp)
 add_executable(findOnlySingleElement leetcode/bit_manipulation/findOnlySingleElement.cpp)
+add_executable(no_of_subsets leetcode/bit_manipulation/no_of_subsets.cpp)
+add_executable(findXorRange leetcode/bit_manipulation/findXorRange.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
