@@ -130,9 +130,12 @@ add_executable(trapping-rainwater.cpp leetcode/trapping-rainwater.cpp)
 add_executable(check_power_of_two.cpp leetcode/bit_manipulation/check_power_of_two.cpp)
 add_executable(divide_two_integers.cpp leetcode/bit_manipulation/divide_two_integers.cpp)
 add_executable(minBitsFlip leetcode/bit_manipulation/minBitsFlip.cpp)
-add_executable(findOnlySingleElement leetcode/bit_manipulation/findOnlySingleElement.cpp)
+add_executable(single_number_1 leetcode/bit_manipulation/single_number_1.cpp)
 add_executable(no_of_subsets leetcode/bit_manipulation/no_of_subsets.cpp)
 add_executable(findXorRange leetcode/bit_manipulation/findXorRange.cpp)
+add_executable(single_number_3 leetcode/bit_manipulation/single_number_3.cpp)
+add_executable(reverse_bits_unsigned_int leetcode/bit_manipulation/reverse_bits.cpp)
+add_executable(count_no_of_bits leetcode/bit_manipulation/count_no_of_bits.cpp)
 
 # Linked List coding ninja
 add_executable(count_loop_nodes_in_LL coding_ninja/count_loop_nodes_in_LL.cpp)
