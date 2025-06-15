@@ -16,6 +16,7 @@ public:
       }
 
       ListNode *slow = head, *fast = head->next;
+      // fast = head->next to prevent the loop from terminating at the beginning
       while (fast != slow) {
         if (fast->next == nullptr || fast->next->next == nullptr) {
           return false;

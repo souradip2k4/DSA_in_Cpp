@@ -63,6 +63,8 @@ add_executable(odd_even_LL leetcode/linked-list/odd_even_LL.cpp)
 add_executable(delete_node_from_end_approach1 leetcode/linked-list/delete_node_from_end_approach1.cpp)
 add_executable(delete_mid_node_LL leetcode/linked-list/delete_mid_node_LL.cpp)
 add_executable(merge_interval leetcode/linked-list/merge_interval.cpp)
+add_executable(sort_LL leetcode/linked-list/sort_LL.cpp)
+add_executable(add_two_nos.cpp leetcode/linked-list/add_two_nos.cpp)
 
 
 # String problems

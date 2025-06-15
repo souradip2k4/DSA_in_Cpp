@@ -46,7 +46,6 @@ public:
         secondPrt = secondPrt->next;
       }
 
-
       return true;
     }
 };
