@@ -25,6 +25,7 @@ add_executable(3_cons_int_sum leetcode/3_cons_int_sum.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
 add_executable(sort_colors leetcode/sort_colors.cpp)
 add_executable(pascals_triangle leetcode/pascals_triangle.cpp)
+add_executable(2_sum.cpp leetcode/2_sum.cpp)
 add_executable(3_sum1 leetcode/3_sum1.cpp)
 add_executable(3_sum2 leetcode/3_sum2.cpp)
 add_executable(4_sum leetcode/4_sum.cpp)
@@ -65,6 +66,7 @@ add_executable(delete_mid_node_LL leetcode/linked-list/delete_mid_node_LL.cpp)
 add_executable(merge_interval leetcode/linked-list/merge_interval.cpp)
 add_executable(sort_LL leetcode/linked-list/sort_LL.cpp)
 add_executable(add_two_nos.cpp leetcode/linked-list/add_two_nos.cpp)
+add_executable(reverse_LL_in_K_groups.cpp leetcode/linked-list/reverse_LL_in_K_groups.cpp)
 
 
 # String problems

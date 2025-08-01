@@ -55,25 +55,16 @@ ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
 
     if (temp2 != nullptr) {
       sum = (temp1->val + temp2->val + carry);
-      if (sum >= 10) {
-        carry = 1;
-      } else {
-        carry = 0;
-      }
+      carry = sum >= 10 ? 1 : 0;
 
       temp1->val = sum % 10;
 
       temp1 = temp1->next;
       temp2 = temp2->next;
     } else {
-
       sum = temp1->val + carry;
       temp1->val = sum % 10;
-      if (sum >= 10) {
-        carry = 1;
-      } else {
-        carry = 0;
-      }
+      carry = sum >= 10 ? 1 : 0;
 
       temp1 = temp1->next;
     }
