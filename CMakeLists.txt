@@ -19,7 +19,7 @@ add_executable(min_days_m_bouquets leetcode/min_days_m_bouquets.cpp)
 add_executable(ship_package_capacity leetcode/ship_package_capacity.cpp)
 
 add_executable(pos_neg_pair_arr leetcode/pos_neg_pair_arr.cpp)
-add_executable(max_consecutive_arr leetcode/max_consecutive_arr.cpp)
+add_executable(max_consecutive_arr leetcode/longestConsecutive.cpp)
 add_executable(single_number leetcode/single_number.cpp)
 add_executable(3_cons_int_sum leetcode/3_cons_int_sum.cpp)
 add_executable(majority_element leetcode/majority_element.cpp)
