@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.22.1)
 project(DSA)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -51,7 +51,6 @@ add_executable(longest_subarr_sum_k_signed coding_ninja/longest_subarr_sum_k_sig
 add_executable(union coding_ninja/union.cpp)
 add_executable(ceil_the_floor coding_ninja/ceil_the_floor.cpp)
 
-
 # Linked List leetcode
 add_executable(middle_elem_LL leetcode/linked-list/middle_elem_LL.cpp)
 add_executable(deletion_in_LL leetcode/linked-list/deletion_in_LL.cpp)
@@ -65,36 +64,36 @@ add_executable(delete_node_from_end_approach1 leetcode/linked-list/delete_node_f
 add_executable(delete_mid_node_LL leetcode/linked-list/delete_mid_node_LL.cpp)
 add_executable(merge_interval leetcode/linked-list/merge_interval.cpp)
 add_executable(sort_LL leetcode/linked-list/sort_LL.cpp)
-add_executable(add_two_nos.cpp leetcode/linked-list/add_two_nos.cpp)
-add_executable(reverse_LL_in_K_groups.cpp leetcode/linked-list/reverse_LL_in_K_groups.cpp)
+add_executable(add_two_nos leetcode/linked-list/add_two_nos.cpp)
+add_executable(reverse_LL_in_K_groups leetcode/linked-list/reverse_LL_in_K_groups.cpp)
 
 
 # String problems
-add_executable(longest_repeat_char_replacement.cpp leetcode/string/longest_repeat_char_replacement.cpp)
-add_executable(substr_all_3_chars.cpp leetcode/string/substr_all_3_chars.cpp)
-add_executable(remove_outer_parenthesis.cpp leetcode/string/remove_outer_parenthesis.cpp)
-add_executable(reverse_words_in_string.cpp leetcode/string/reverse_words_in_string.cpp)
-add_executable(maxOddSubstr.cpp leetcode/string/maxOddSubstr.cpp)
-add_executable(longest_common_prefix.cpp leetcode/string/longest_common_prefix.cpp)
-add_executable(isomorphic_string.cpp leetcode/string/isomorphic_string.cpp)
-add_executable(anagram.cpp leetcode/string/anagram.cpp)
-add_executable(rotate_string.cpp leetcode/string/rotate_string.cpp)
-add_executable(sort_by_freq.cpp leetcode/string/sort_by_freq.cpp)
-add_executable(max_nesting_depth.cpp leetcode/string/max_nesting_depth.cpp)
-add_executable(string_to_int.cpp leetcode/string/string_to_int.cpp)
-add_executable(longest_palindromic_substr.cpp leetcode/string/longest_palindromic_substr.cpp)
-add_executable(sum_beauty_strings.cpp leetcode/string/sum_beauty_strings.cpp)
-add_executable(min_parenthesis_valid_add.cpp leetcode/string/min_parenthesis_valid_add.cpp)
-add_executable(count_and_stay.cpp leetcode/string/count_and_stay.cpp)
-add_executable(shortest_palindrome.cpp leetcode/string/shortest_palindrome.cpp)
-add_executable(repeated_string_match.cpp leetcode/string/repeated_string_match.cpp)
-add_executable(first_occurance_string.cpp leetcode/string/first_occurance_string.cpp)
+add_executable(longest_repeat_char_replacement leetcode/string/longest_repeat_char_replacement.cpp)
+add_executable(substr_all_3_chars leetcode/string/substr_all_3_chars.cpp)
+add_executable(remove_outer_parenthesis leetcode/string/remove_outer_parenthesis.cpp)
+add_executable(reverse_words_in_string leetcode/string/reverse_words_in_string.cpp)
+add_executable(maxOddSubstr leetcode/string/maxOddSubstr.cpp)
+add_executable(longest_common_prefix leetcode/string/longest_common_prefix.cpp)
+add_executable(isomorphic_string leetcode/string/isomorphic_string.cpp)
+add_executable(anagram leetcode/string/anagram.cpp)
+add_executable(rotate_string leetcode/string/rotate_string.cpp)
+add_executable(sort_by_freq leetcode/string/sort_by_freq.cpp)
+add_executable(max_nesting_depth leetcode/string/max_nesting_depth.cpp)
+add_executable(string_to_int leetcode/string/string_to_int.cpp)
+add_executable(longest_palindromic_substr leetcode/string/longest_palindromic_substr.cpp)
+add_executable(sum_beauty_strings leetcode/string/sum_beauty_strings.cpp)
+add_executable(min_parenthesis_valid_add leetcode/string/min_parenthesis_valid_add.cpp)
+add_executable(count_and_stay leetcode/string/count_and_stay.cpp)
+add_executable(shortest_palindrome leetcode/string/shortest_palindrome.cpp)
+add_executable(repeated_string_match leetcode/string/repeated_string_match.cpp)
+add_executable(first_occurance_string leetcode/string/first_occurance_string.cpp)
 add_executable(shortest-palindrome leetcode/string/shortest-palindrome.cpp)
 add_executable(roman-no leetcode/string/roman-no.cpp)
 add_executable(longest-prefix-also-suffix leetcode/string/longest-prefix-also-suffix.cpp)
 
 # Sliding window
-add_executable(max-binary-subArrays.cpp leetcode/sliding-window/max-binary-subArrays.cpp)
+add_executable(max-binary-subArrays leetcode/sliding-window/max-binary-subArrays.cpp)
 add_executable(fruits_into_basket leetcode/sliding-window/fruits_into_basket.cpp)
 add_executable(count-nice-subarrays leetcode/sliding-window/count-nice-subarrays.cpp)
 add_executable(longest-substr-without-repeat-chars leetcode/sliding-window/longest-substr-without-repeat-chars.cpp)
@@ -104,7 +103,7 @@ add_executable(min-window-substring leetcode/sliding-window/min-window-substring
 add_executable(max-cons-1s-k-replacement leetcode/sliding-window/max-cons-1s-k-replacement.cpp)
 
 # Recursion problems
-add_executable(generate_parenthesis.cpp leetcode/recursion/generate_parenthesis.cpp)
+add_executable(generate_parenthesis leetcode/recursion/generate_parenthesis.cpp)
 add_executable(generate_all_subsets leetcode/recursion/generate_all_subsets.cpp)
 add_executable(count-good-numbers leetcode/recursion/count-good-numbers.cpp)
 add_executable(pow leetcode/recursion/pow.cpp)
@@ -127,12 +126,12 @@ add_executable(LRU leetcode/stacks-and-queues/queues/LRU.cpp)
 add_executable(LFU-cache leetcode/stacks-and-queues/queues/LFU-cache.cpp)
 
 
-add_executable(trapping-rainwater.cpp leetcode/trapping-rainwater.cpp)
+add_executable(trapping-rainwater leetcode/trapping-rainwater.cpp)
 
 
 #Bit Manipulation
-add_executable(check_power_of_two.cpp leetcode/bit_manipulation/check_power_of_two.cpp)
-add_executable(divide_two_integers.cpp leetcode/bit_manipulation/divide_two_integers.cpp)
+add_executable(check_power_of_two leetcode/bit_manipulation/check_power_of_two.cpp)
+add_executable(divide_two_integers leetcode/bit_manipulation/divide_two_integers.cpp)
 add_executable(minBitsFlip leetcode/bit_manipulation/minBitsFlip.cpp)
 add_executable(single_number_1 leetcode/bit_manipulation/single_number_1.cpp)
 add_executable(no_of_subsets leetcode/bit_manipulation/no_of_subsets.cpp)

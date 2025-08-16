@@ -6,25 +6,31 @@
 
 using namespace std;
 
-vector<int> sortedArray(vector<int> a, vector<int> b) {
+vector<int> sortedArray(vector<int> a, vector<int> b)
+{
   unordered_map<int, int> uMap;
 
-  for (auto el: a) {
-    if (uMap.find(el) == uMap.end()) {
+  for (auto el : a)
+  {
+    if (uMap.find(el) == uMap.end())
+    {
       uMap[el]++;
     }
   }
 
-  for (auto el: b) {
-    if (uMap.find(el) == uMap.end()) {
+  for (auto el : b)
+  {
+    if (uMap.find(el) == uMap.end())
+    {
       uMap[el]++;
     }
   }
 
   vector<int> keys;
-  keys.reserve(uMap.size());  // Reserve space for efficiency
+  keys.reserve(uMap.size()); // Reserve space for efficiency
 
-  for (const auto entry: uMap) {
+  for (const auto entry : uMap)
+  {
     keys.push_back(entry.first);
   }
 
@@ -32,14 +38,16 @@ vector<int> sortedArray(vector<int> a, vector<int> b) {
   return keys;
 }
 
-int main() {
+int main()
+{
   vector<int> arr1, arr2, resArr;
   arr1 = {1, 2, 3, 4, 5};
   arr2 = {2, 3, 5};
 
   resArr = sortedArray(arr1, arr2);
 
-  for (auto elem: resArr) {
+  for (auto elem : resArr)
+  {
     cout << elem << ", ";
   }
 }

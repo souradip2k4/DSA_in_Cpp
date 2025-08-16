@@ -1,0 +1,582 @@
+[
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/product_except_self.dir/leetcode/product_except_self.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/product_except_self.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/product_except_self.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/pivotIndex_apr1.dir/leetcode/pivotIndex_apr1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/pivotIndex_apr1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/pivotIndex_apr1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/pivotIndex_apr2.dir/leetcode/pivotIndex_apr2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/pivotIndex_apr2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/pivotIndex_apr2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/buy_sell_stock.dir/leetcode/buy_sell_stock.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/buy_sell_stock.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/buy_sell_stock.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/array_mountain.dir/leetcode/array_mountain.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/array_mountain.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/array_mountain.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/binary_search_index.dir/leetcode/binary_search_index.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/binary_search_index.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/binary_search_index.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/rotated_sorted_arr1.dir/leetcode/rotated_sorted_arr1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/rotated_sorted_arr1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/rotated_sorted_arr1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/rotated_sorted_arr2.dir/leetcode/rotated_sorted_arr2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/rotated_sorted_arr2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/rotated_sorted_arr2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/first_last_pos.dir/leetcode/first_last_pos.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/first_last_pos.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/first_last_pos.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/koko_eating_bananas.dir/leetcode/koko_eating_bananas.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/koko_eating_bananas.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/koko_eating_bananas.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/min_days_m_bouquets.dir/leetcode/min_days_m_bouquets.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/min_days_m_bouquets.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/min_days_m_bouquets.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/ship_package_capacity.dir/leetcode/ship_package_capacity.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/ship_package_capacity.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/ship_package_capacity.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/pos_neg_pair_arr.dir/leetcode/pos_neg_pair_arr.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/pos_neg_pair_arr.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/pos_neg_pair_arr.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max_consecutive_arr.dir/leetcode/longestConsecutive.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/longestConsecutive.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/longestConsecutive.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/single_number.dir/leetcode/single_number.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/single_number.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/single_number.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/3_cons_int_sum.dir/leetcode/3_cons_int_sum.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/3_cons_int_sum.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/3_cons_int_sum.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/majority_element.dir/leetcode/majority_element.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/majority_element.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/majority_element.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sort_colors.dir/leetcode/sort_colors.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sort_colors.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sort_colors.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/pascals_triangle.dir/leetcode/pascals_triangle.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/pascals_triangle.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/pascals_triangle.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/2_sum.cpp.dir/leetcode/2_sum.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/2_sum.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/2_sum.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/3_sum1.dir/leetcode/3_sum1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/3_sum1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/3_sum1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/3_sum2.dir/leetcode/3_sum2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/3_sum2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/3_sum2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/4_sum.dir/leetcode/4_sum.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/4_sum.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/4_sum.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/rotate_array.dir/leetcode/rotate_array.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/rotate_array.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/rotate_array.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_pair.dir/leetcode/reverse_pair.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/reverse_pair.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/reverse_pair.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/square_root.dir/coding_ninja/square_root.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/square_root.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/square_root.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/book_allocation.dir/coding_ninja/book_allocation.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/book_allocation.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/book_allocation.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/no_of_inversions.dir/coding_ninja/no_of_inversions.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/no_of_inversions.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/no_of_inversions.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max_subarray.dir/coding_ninja/max_subarray.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/max_subarray.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/max_subarray.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/min_dishes.dir/coding_ninja/min_dishes.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/min_dishes.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/min_dishes.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/quick_sort.dir/coding_ninja/quick_sort.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/quick_sort.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/quick_sort.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/merge_sort.dir/coding_ninja/merge_sort.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/merge_sort.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/merge_sort.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/arr_pair_sum.dir/coding_ninja/arr_pair_sum.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/arr_pair_sum.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/arr_pair_sum.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest_subarr_sum_k.dir/coding_ninja/longest_subarr_sum_k.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/longest_subarr_sum_k.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/longest_subarr_sum_k.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest_subarr_sum_k_signed.dir/coding_ninja/longest_subarr_sum_k_signed.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/longest_subarr_sum_k_signed.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/longest_subarr_sum_k_signed.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/union.dir/coding_ninja/union.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/union.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/union.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/ceil_the_floor.dir/coding_ninja/ceil_the_floor.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/ceil_the_floor.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/ceil_the_floor.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/middle_elem_LL.dir/leetcode/linked-list/middle_elem_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/middle_elem_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/middle_elem_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/deletion_in_LL.dir/leetcode/linked-list/deletion_in_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/deletion_in_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/deletion_in_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_LL.dir/leetcode/linked-list/reverse_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/reverse_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/reverse_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/LL_cycle.dir/leetcode/linked-list/LL_cycle.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/LL_cycle2_approach1.dir/leetcode/linked-list/LL_cycle2_approach1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle2_approach1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle2_approach1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/LL_cycle2_approach2.dir/leetcode/linked-list/LL_cycle2_approach2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle2_approach2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/LL_cycle2_approach2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/palindrome_LL.dir/leetcode/linked-list/palindrome_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/palindrome_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/palindrome_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/odd_even_LL.dir/leetcode/linked-list/odd_even_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/odd_even_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/odd_even_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/delete_node_from_end_approach1.dir/leetcode/linked-list/delete_node_from_end_approach1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/delete_node_from_end_approach1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/delete_node_from_end_approach1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/delete_mid_node_LL.dir/leetcode/linked-list/delete_mid_node_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/delete_mid_node_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/delete_mid_node_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/merge_interval.dir/leetcode/linked-list/merge_interval.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/merge_interval.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/merge_interval.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sort_LL.dir/leetcode/linked-list/sort_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/sort_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/sort_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/add_two_nos.dir/leetcode/linked-list/add_two_nos.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/add_two_nos.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/add_two_nos.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_LL_in_K_groups.dir/leetcode/linked-list/reverse_LL_in_K_groups.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/reverse_LL_in_K_groups.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/linked-list/reverse_LL_in_K_groups.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest_repeat_char_replacement.dir/leetcode/string/longest_repeat_char_replacement.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_repeat_char_replacement.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_repeat_char_replacement.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/substr_all_3_chars.dir/leetcode/string/substr_all_3_chars.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/substr_all_3_chars.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/substr_all_3_chars.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/remove_outer_parenthesis.dir/leetcode/string/remove_outer_parenthesis.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/remove_outer_parenthesis.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/remove_outer_parenthesis.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_words_in_string.dir/leetcode/string/reverse_words_in_string.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/reverse_words_in_string.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/reverse_words_in_string.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/maxOddSubstr.dir/leetcode/string/maxOddSubstr.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/maxOddSubstr.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/maxOddSubstr.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest_common_prefix.dir/leetcode/string/longest_common_prefix.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_common_prefix.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_common_prefix.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/isomorphic_string.dir/leetcode/string/isomorphic_string.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/isomorphic_string.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/isomorphic_string.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/anagram.dir/leetcode/string/anagram.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/anagram.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/anagram.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/rotate_string.dir/leetcode/string/rotate_string.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/rotate_string.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/rotate_string.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sort_by_freq.dir/leetcode/string/sort_by_freq.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/sort_by_freq.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/sort_by_freq.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max_nesting_depth.dir/leetcode/string/max_nesting_depth.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/max_nesting_depth.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/max_nesting_depth.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/string_to_int.dir/leetcode/string/string_to_int.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/string_to_int.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/string_to_int.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest_palindromic_substr.dir/leetcode/string/longest_palindromic_substr.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_palindromic_substr.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/longest_palindromic_substr.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sum_beauty_strings.dir/leetcode/string/sum_beauty_strings.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/sum_beauty_strings.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/sum_beauty_strings.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/min_parenthesis_valid_add.dir/leetcode/string/min_parenthesis_valid_add.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/min_parenthesis_valid_add.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/min_parenthesis_valid_add.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/count_and_stay.dir/leetcode/string/count_and_stay.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/count_and_stay.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/count_and_stay.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/shortest_palindrome.dir/leetcode/string/shortest_palindrome.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/shortest_palindrome.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/shortest_palindrome.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/repeated_string_match.dir/leetcode/string/repeated_string_match.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/repeated_string_match.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/repeated_string_match.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/first_occurance_string.dir/leetcode/string/first_occurance_string.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/first_occurance_string.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/first_occurance_string.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/shortest-palindrome.dir/leetcode/string/shortest-palindrome.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/shortest-palindrome.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/shortest-palindrome.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/roman-no.dir/leetcode/string/roman-no.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/roman-no.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/roman-no.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest-prefix-also-suffix.dir/leetcode/string/longest-prefix-also-suffix.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/string/longest-prefix-also-suffix.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/string/longest-prefix-also-suffix.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max-binary-subArrays.dir/leetcode/sliding-window/max-binary-subArrays.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-binary-subArrays.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-binary-subArrays.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/fruits_into_basket.dir/leetcode/sliding-window/fruits_into_basket.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/fruits_into_basket.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/fruits_into_basket.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/count-nice-subarrays.dir/leetcode/sliding-window/count-nice-subarrays.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/count-nice-subarrays.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/count-nice-subarrays.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/longest-substr-without-repeat-chars.dir/leetcode/sliding-window/longest-substr-without-repeat-chars.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/longest-substr-without-repeat-chars.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/longest-substr-without-repeat-chars.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max-points-from-card.dir/leetcode/sliding-window/max-points-from-card.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-points-from-card.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-points-from-card.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/subArrays-distinct-integers.dir/leetcode/sliding-window/subArrays-distinct-integers.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/subArrays-distinct-integers.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/subArrays-distinct-integers.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/min-window-substring.dir/leetcode/sliding-window/min-window-substring.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/min-window-substring.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/min-window-substring.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/max-cons-1s-k-replacement.dir/leetcode/sliding-window/max-cons-1s-k-replacement.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-cons-1s-k-replacement.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/sliding-window/max-cons-1s-k-replacement.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/generate_parenthesis.dir/leetcode/recursion/generate_parenthesis.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/recursion/generate_parenthesis.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/recursion/generate_parenthesis.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/generate_all_subsets.dir/leetcode/recursion/generate_all_subsets.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/recursion/generate_all_subsets.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/recursion/generate_all_subsets.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/count-good-numbers.dir/leetcode/recursion/count-good-numbers.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/recursion/count-good-numbers.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/recursion/count-good-numbers.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/pow.dir/leetcode/recursion/pow.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/recursion/pow.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/recursion/pow.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/next-greater-elem-in-array.dir/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/next-greater-elem-in-array2.dir/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/next-greater-elem-in-array2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/get-min.dir/leetcode/stacks-and-queues/stacks/get-min-stack.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/get-min-stack.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/get-min-stack.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/largest-reactngle-histogram-approach1.dir/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/largest-reactngle-histogram-approach2.dir/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach2.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach2.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/largest-reactngle-histogram-approach2.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/subarray-min-sum.dir/leetcode/stacks-and-queues/stacks/subarray-min-sum.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/subarray-min-sum.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/subarray-min-sum.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/asteroid-collision.dir/leetcode/stacks-and-queues/stacks/asteroid-collision.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/asteroid-collision.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/asteroid-collision.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sum-subarray-ranges.dir/leetcode/stacks-and-queues/stacks/sum-subarray-ranges.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/sum-subarray-ranges.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/sum-subarray-ranges.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/valid-parenthesis.dir/leetcode/stacks-and-queues/stacks/valid-parenthesis.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/valid-parenthesis.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/valid-parenthesis.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/online-stock-plan.dir/leetcode/stacks-and-queues/stacks/online-stock-plan.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/online-stock-plan.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/online-stock-plan.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/remove-k-digits.dir/leetcode/stacks-and-queues/stacks/remove-k-digits.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/remove-k-digits.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/stacks/remove-k-digits.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/stack-using-queue.dir/leetcode/stacks-and-queues/queues/stack-using-queue.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/stack-using-queue.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/stack-using-queue.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/LRU.dir/leetcode/stacks-and-queues/queues/LRU.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/LRU.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/LRU.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/LFU-cache.dir/leetcode/stacks-and-queues/queues/LFU-cache.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/LFU-cache.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/stacks-and-queues/queues/LFU-cache.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/trapping-rainwater.dir/leetcode/trapping-rainwater.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/trapping-rainwater.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/trapping-rainwater.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/check_power_of_two.dir/leetcode/bit_manipulation/check_power_of_two.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/check_power_of_two.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/check_power_of_two.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/divide_two_integers.dir/leetcode/bit_manipulation/divide_two_integers.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/divide_two_integers.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/divide_two_integers.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/minBitsFlip.dir/leetcode/bit_manipulation/minBitsFlip.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/minBitsFlip.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/minBitsFlip.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/single_number_1.dir/leetcode/bit_manipulation/single_number_1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/single_number_1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/single_number_1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/no_of_subsets.dir/leetcode/bit_manipulation/no_of_subsets.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/no_of_subsets.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/no_of_subsets.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/findXorRange.dir/leetcode/bit_manipulation/findXorRange.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/findXorRange.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/findXorRange.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/single_number_3.dir/leetcode/bit_manipulation/single_number_3.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/single_number_3.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/single_number_3.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_bits_unsigned_int.dir/leetcode/bit_manipulation/reverse_bits.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/reverse_bits.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/reverse_bits.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/count_no_of_bits.dir/leetcode/bit_manipulation/count_no_of_bits.cpp.o -c /home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/count_no_of_bits.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/leetcode/bit_manipulation/count_no_of_bits.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/count_loop_nodes_in_LL.dir/coding_ninja/count_loop_nodes_in_LL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/count_loop_nodes_in_LL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/count_loop_nodes_in_LL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/reverse_double_linked_list.dir/coding_ninja/reverse_double_linked_list.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/reverse_double_linked_list.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/reverse_double_linked_list.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/deleting_end_node_DLL.dir/coding_ninja/deleting_end_node_DLL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/coding_ninja/deleting_end_node_DLL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/coding_ninja/deleting_end_node_DLL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/insert_in_DLL.dir/gfg/linked-list/insert_in_DLL.cpp.o -c /home/souradip/C++/DSA_in_Cpp/gfg/linked-list/insert_in_DLL.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/gfg/linked-list/insert_in_DLL.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/sort-stack.dir/gfg/recursion/sort-stack.cpp.o -c /home/souradip/C++/DSA_in_Cpp/gfg/recursion/sort-stack.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/gfg/recursion/sort-stack.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/linked_list1.dir/linked_list/linked_list1.cpp.o -c /home/souradip/C++/DSA_in_Cpp/linked_list/linked_list1.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/linked_list/linked_list1.cpp"
+},
+{
+  "directory": "/home/souradip/C++/DSA_in_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++14 -o CMakeFiles/binary_search.dir/search/binary_search.cpp.o -c /home/souradip/C++/DSA_in_Cpp/search/binary_search.cpp",
+  "file": "/home/souradip/C++/DSA_in_Cpp/search/binary_search.cpp"
+}
+]
