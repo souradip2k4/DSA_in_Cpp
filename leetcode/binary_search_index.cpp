@@ -1,40 +1,49 @@
 // https://leetcode.com/problems/search-insert-position/
-#include<iostream>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int searchInsert(vector<int> &nums, int target) {
-      int start = 0, end = nums.size() - 1;
-      int mid = start + (end - start) / 2;
-
-      while (end >= start) {
-        if (target < nums[0]) {
-          return 0;
-        } else if (target > nums[nums.size() - 1]) {
-          return end + 1;
-        }
-
-        if (nums[mid] == target || (target > nums[mid - 1] && target < nums[mid])) {
-          return mid;
-        }
-
-        if (nums[mid] > target) {
-          end = mid - 1;
-        } else {
-          start = mid + 1;
-        }
-
-        mid = start + (end - start) / 2;
-      }
-      return mid;
+  int searchInsert(vector<int>& arr, int target)
+  {
+    if (target <= arr[0]) {
+      return 0;
     }
+    else if (target > arr[arr.size() - 1]) {
+      return arr.size();
+    }
+
+    int l = 0, r = arr.size() - 1;
+    int mid = l + (r - l) / 2;
+
+    while (l <= r) {
+
+      if ((mid - 1) >= 0 && arr[mid - 1] < target && target <= arr[mid])
+      {
+        return mid;
+      }
+      else if (arr[mid] < target)
+      {
+        r = mid - 1;
+      }
+      else if (arr[mid] > target)
+      {
+        l = mid + 1;
+      }
+
+      mid = l + (r - l) / 2;
+    }
+
+    return -1;
+  }
 };
 
-int main() {
-  vector<int> arr = {1, 3};
+int main()
+{
+  vector<int> arr = { 1, 3 };
   Solution soln;
   int position = soln.searchInsert(arr, 2);
 

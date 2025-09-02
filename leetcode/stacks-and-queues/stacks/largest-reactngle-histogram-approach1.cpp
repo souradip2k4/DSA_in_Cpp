@@ -2,26 +2,31 @@
 // 84. Largest Rectangle in Histogram
 // O(5n)
 
-
 #include <values.h>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-vector<int> prevSmallestElem(vector<int> &heights) {
+vector<int> prevSmallestElem(vector<int> &heights)
+{
   stack<int> st;
   int n = heights.size();
   vector<int> pse(n);
 
   // O(n)
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++)
+  {
     // O(n)
-    while (!st.empty() && heights[i] <= heights[st.top()]) {
+    while (!st.empty() && heights[i] <= heights[st.top()])
+    {
       st.pop();
     }
 
-    if (!st.empty()) {
+    if (!st.empty())
+    {
       pse[i] = st.top();
-    } else {
+    }
+    else
+    {
       pse[i] = -1;
     }
 
@@ -31,21 +36,27 @@ vector<int> prevSmallestElem(vector<int> &heights) {
   return pse;
 }
 
-vector<int> nextSmallestElem(vector<int> &heights) {
+vector<int> nextSmallestElem(vector<int> &heights)
+{
   stack<int> st;
   int n = heights.size();
   vector<int> nse(n);
 
   // O(n)
-  for (int i = n - 1; i >= 0; i--) {
+  for (int i = n - 1; i >= 0; i--)
+  {
     // O(n)
-    while (!st.empty() && heights[i] <= heights[st.top()]) {
+    while (!st.empty() && heights[i] <= heights[st.top()])
+    {
       st.pop();
     }
 
-    if (!st.empty()) {
+    if (!st.empty())
+    {
       nse[i] = st.top();
-    } else {
+    }
+    else
+    {
       nse[i] = n;
     }
 
@@ -55,20 +66,23 @@ vector<int> nextSmallestElem(vector<int> &heights) {
   return nse;
 }
 
-int largestRectangleArea(vector<int> &heights) {
+int largestRectangleArea(vector<int> &heights)
+{
   vector<int> pse = prevSmallestElem(heights);
   vector<int> nse = nextSmallestElem(heights);
   int maxArea = MININT;
 
   // O(n)
-  for (int i = 0; i < heights.size(); i++) {
+  for (int i = 0; i < heights.size(); i++)
+  {
     maxArea = max(maxArea, heights[i] * (nse[i] - pse[i] - 1));
   }
 
   return maxArea;
 }
 
-int main() {
+int main()
+{
   vector<int> arr1 = {2, 1, 5, 6, 2, 3};
   vector<int> arr2 = {2, 4};
 
