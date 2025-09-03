@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/valid-parenthesis-string/description/
+// 678. Valid Parenthesis String
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +15,9 @@ bool checkValidString(string s) {
     }
 
     if (ch == ')') {
-      if (low > 0) low--; // ch = '('
+      // low: only reduce if we had an unmatched '(' (can't go below 0)
+      if (low > 0) low--;
+      // high: always reduce since ')' must close something in the "(" view
       high--;
     }
 
@@ -32,7 +37,8 @@ bool checkValidString(string s) {
 
 int main() {
 
-  cout << checkValidString("(*))") << endl;
-  cout << checkValidString("(*)") << endl;
+  cout << checkValidString("(*))") << endl; // * = '('
+  cout << checkValidString("(*)") << endl; // * = ''
+  cout << checkValidString("((*)") << endl; // * = ')'
   cout << checkValidString("())(") << endl; // if (high < 0) return false; is satisfied here 
 }

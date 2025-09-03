@@ -1,5 +1,7 @@
 {
   "files.associations": {
     "ostream": "cpp"
-  }
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true
 }
