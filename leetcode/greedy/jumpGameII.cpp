@@ -11,24 +11,25 @@ int jump(vector<int>& nums) {
   int i = 0;
 
   while (i < n - 1) {
-    int nextInd = min(i + nums[i], n - 1);
-    int maxJump = i + nums[i];
-    int bestInd = i + 1;
-    if (i + nums[i] >= nums.size() - 1) {
+    int nextMaxInd = min(i + nums[i], n - 1);
+    int maxJump = INT_MIN;
+    int bestNextInd = i + 1;
+
+    if (nextMaxInd == n - 1) {
       cnt++;
       break;
     }
 
-    for (int j = i + 1; j <= nextInd; j++) {
+    for (int j = i + 1; j <= nextMaxInd; j++) {
 
       if (j + nums[j] > maxJump) {
         maxJump = j + nums[j];
-        bestInd = j;
+        bestNextInd = j;
       }
     }
 
     cnt++;
-    i = bestInd;
+    i = bestNextInd;
   }
 
   return cnt;
