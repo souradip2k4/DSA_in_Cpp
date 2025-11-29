@@ -17,10 +17,10 @@ int divide(int dividend, int divisor) {
 
   long div = abs((long long)dividend);
   long dvs = abs((long long)divisor);
-cout << div << dvs << endl;
+  cout << div << dvs << endl;
   while (div >= dvs) {
     int cnt = 0;
-    while (div >= (dvs <<  cnt + 1)) {
+    while (div >= (dvs << cnt + 1)) {
       cnt++;
     }
 
